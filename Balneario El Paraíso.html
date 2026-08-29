@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<!-- saved from url=(0065)file:///C:/Users/INFORMATICA/Desktop/Ana%C3%ADs/index.html#comida -->
+<html lang="es"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Balneario El Paraíso</title>
+  <link rel="stylesheet" href="./Balneario El Paraíso_files/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com/">
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+  <link href="./Balneario El Paraíso_files/css2" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navegación -->
+  <nav class="navbar">
+    <div class="logo">EL PARAÍSO</div>
+    <ul class="nav-links">
+      <li><a href="file:///C:/Users/INFORMATICA/Desktop/Ana%C3%ADs/index.html#inicio">Inicio</a></li>
+      <li><a href="file:///C:/Users/INFORMATICA/Desktop/Ana%C3%ADs/index.html#horarios">Horarios</a></li>
+      <li><a href="file:///C:/Users/INFORMATICA/Desktop/Ana%C3%ADs/index.html#galeria">Galería</a></li>
+      <li><a href="file:///C:/Users/INFORMATICA/Desktop/Ana%C3%ADs/index.html#comida">Comida</a></li>
+      <li><a href="file:///C:/Users/INFORMATICA/Desktop/Ana%C3%ADs/index.html#pagos">Pagos</a></li>
+    </ul>
+  </nav>
+
+  <!-- Portada / Hero Section -->
+  <header id="inicio" class="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <h1>Balneario El Paraíso</h1>
+      <p>Tu oasis de diversión, naturaleza y relajación</p>
+      <a href="file:///C:/Users/INFORMATICA/Desktop/Ana%C3%ADs/index.html#comida" class="btn">Reserva tu Comida</a>
+    </div>
+  </header>
+
+  <!-- Horarios -->
+  <section id="horarios" class="section">
+    <h2>Horarios de Atención</h2>
+    <div class="horario-card">
+      <div class="status abierto">Abierto de Martes a Domingo</div>
+      <p class="time">9:00 AM - 6:00 PM</p>
+      <p class="maintenance">Lunes cerrado por mantenimiento</p>
+    </div>
+  </section>
+
+  <!-- Galería de Imágenes -->
+  <section id="galeria" class="section bg-light">
+    <h2>Nuestras Instalaciones</h2>
+    <div class="grid-galeria">
+      <div class="galeria-item">
+        <img src="./Balneario El Paraíso_files/OIP.webp">
+        <p>Piscina Principal</p>
+      </div>
+      <div class="galeria-item">
+        <img src="./Balneario El Paraíso_files/htgfd4.jpg">
+        <p>Áreas Verdes</p>
+      </div>
+      <div class="galeria-item">
+        <img src="./Balneario El Paraíso_files/luxury-private-villa-pool-outdoor-exterior-bali-garden-swimming-outdoors-52476229.webp">
+        <p>Zona de Descanso</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Reservas de Comida -->
+  <section id="comida" class="section">
+    <h2>Reserva de Comida</h2>
+    <p class="section-desc">Selecciona tus platillos con anticipación para tenerlos listos a tu llegada.</p>
+    
+    <div class="menu-grid">
+      <div class="menu-card">
+        <h3>Plato Mixto Familiar</h3>
+        <p>Carnes a la parrilla, guarniciones y ensalada.</p>
+        <span class="price">$15.00</span>
+        <button class="btn-add" onclick="agregarAlPedido(&#39;Plato Mixto&#39;, 15.00)">Añadir al pedido</button>
+      </div>
+      <div class="menu-card">
+        <h3>Hamburguesa Especial</h3>
+        <p>Con queso, tocino y papas fritas.</p>
+        <span class="price">$6.50</span>
+        <button class="btn-add" onclick="agregarAlPedido(&#39;Hamburguesa Especial&#39;, 6.50)">Añadir al pedido</button>
+      </div>
+      <div class="menu-card">
+        <h3>Jarra de Limonada / Frutas</h3>
+        <p>1.5 Litros, bien fría.</p>
+        <span class="price">$4.00</span>
+        <button class="btn-add" onclick="agregarAlPedido(&#39;Jarra de Bebida&#39;, 4.00)">Añadir al pedido</button>
+      </div>
+    </div>
+
+    <!-- Resumen de Pedido -->
+    <div class="resumen-container">
+      <h3>Tu Pedido</h3>
+      <ul id="lista-pedido"></ul>
+      <p class="total">Total: $<span id="total-precio">0.00</span></p>
+      <button class="btn" onclick="confirmarReserva()">Confirmar Reserva</button>
+    </div>
+  </section>
+
+  <!-- Métodos de Pago -->
+  <section id="pagos" class="section bg-light">
+    <h2>Formas de Pago</h2>
+    <div class="pagos-container">
+      <div class="pago-card">
+        <div class="icon">💵</div>
+        <h3>Efectivo</h3>
+        <p>Aceptamos pagos directos en boletería y restaurante.</p>
+      </div>
+      <div class="pago-card">
+        <div class="icon">📱</div>
+        <h3>Pago por QR</h3>
+        <p>Transferencia rápida y segura al llegar o mediante tu app bancaria.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2026 Balneario El Paraíso. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="./Balneario El Paraíso_files/script.js"></script>
+
+</body></html>
